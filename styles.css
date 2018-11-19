@@ -4,17 +4,44 @@ body {
 
 main {
   background: white;
-  width: 65%;
+  width: 62.5%;
   height: 10000px;
   margin: auto;
+  margin-top: 20px;
 }
 
-div .Htext {
-  background: green;
-  width: 60%;
+.header {
   position: relative;
-  top: 20%;
-  left: 5%;
+  background: white;
+  width: 100%;
+  height: 150px;
+}
+
+.Htext {
+  line-height: 1.4em;
+  font-size: 1.1em;
+  text-align: center;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+  background: #339966;
+  color: white;
+  width: 50%;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.Htext strong {
+  font-size: 1.07em;
+}
+
+.Hwifi {
+  position: relative;
+  left: 75%;
+}
+
+.Hlogo {
+  position: relative;
+  left: 90%;
 }
 
 ul {
@@ -33,10 +60,11 @@ li p {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0px 10px;
     text-decoration: none;
 }
 
 li p:hover {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid green;
+
 }
