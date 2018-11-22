@@ -18,17 +18,14 @@ main {
 }
 
 .Htext {
-  line-height: 1.4em;
-  font-size: 1.1em;
-  text-align: center;
-  padding-top: 0.4%;
-  padding-bottom: 0.4%;
-  background: #339966;
-  color: white;
-  width: 50%;
-  position: relative;
-  top: 30px;
-  left: 20px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: italic;
+  color: #fff;
+  background: #558971;
 }
 .Htext strong {
   font-size: 1.07em;
