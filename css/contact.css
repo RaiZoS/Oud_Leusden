@@ -1,0 +1,75 @@
+body {
+  background: #fff;
+  font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+  font-size: 12px;
+  color: #686363;
+  line-height: 22px;
+}
+
+.rij {
+  margin: auto;
+  width: 100%;
+}
+
+div {
+  display: block;
+}
+
+.header {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.Htext {
+  margin-top: 10px;
+  margin-right: 42px;
+  padding-left: 20px;
+  padding-right: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-style: italic;
+  color: #fff;
+  background: #558971;
+}
+.Htext strong {
+  font-size: 1.07em;
+}
+
+.Hwifi {
+  position: relative;
+  left: 75%;
+}
+
+.Hlogo {
+  display: block;
+  position: relative;
+  left: 90%;
+  z-index: -10;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgrey;
+}
+
+li {
+    float: left;
+}
+
+li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+li p:hover {
+    border-bottom: 2px solid green;
+
+}
