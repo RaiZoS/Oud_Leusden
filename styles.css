@@ -1,24 +1,30 @@
 body {
-  background: lightgrey;
+  background: #fff;
+  font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+  font-size: 12px;
+  color: #686363;
+  line-height: 22px;
 }
 
-main {
-  background: white;
-  width: 62.5%;
-  height: 10000px;
+.rij {
   margin: auto;
-  margin-top: 20px;
+  width: 100%;
+}
+
+div {
+  display: block;
 }
 
 .header {
-  position: relative;
-  background: white;
-  width: 100%;
-  height: 150px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .Htext {
   margin-top: 10px;
+  margin-right: 42px;
   padding-left: 20px;
   padding-right: 21px;
   padding-top: 15px;
@@ -37,8 +43,10 @@ main {
 }
 
 .Hlogo {
+  display: block;
   position: relative;
   left: 90%;
+  z-index: -10;
 }
 
 ul {
