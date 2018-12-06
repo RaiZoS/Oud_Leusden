@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background: lightgrey;
+  margin-top: 20px;
 }
 
 .background {
@@ -14,6 +15,7 @@ body {
   opacity: 0.5;
   filter:alpha(opacity=80);
   z-index: -90;
+
 }
 
 .main {
@@ -33,8 +35,8 @@ body {
 
 .Htext {
   background: #558971;
-  width: 50%;
-  height: 95px;
+  width: 40%;
+  height: 80px;
   position: relative;
   top: 30px;
   left: 20px;
@@ -47,14 +49,6 @@ body {
   top: 20px;
   color: white;
   font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
-}
-
-.Htext h4 {
-  font-size: 20px;
-}
-
-.Htext h5 {
-  font-size: 17px;
 }
 
 .Hlogo {
