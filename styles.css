@@ -1,9 +1,19 @@
 body {
-  background-image: url("media/xmasjpg.jpg");
+  background-color: white;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("media/xmas.jpg");
   background-repeat: no-repeat;
-  background-color: #cccccc;
   background-size: 100%;
-  margin-top: 20px;
+  opacity: 0.5;
+  filter:alpha(opacity=80);
+  z-index: -90;
 }
 
 .main {
