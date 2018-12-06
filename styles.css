@@ -1,5 +1,8 @@
 body {
-  background: lightgrey;
+  background-image: url("media/xmasjpg.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: 100%;
   margin-top: 20px;
 }
 
@@ -20,8 +23,8 @@ body {
 
 .Htext {
   background: #558971;
-  width: 40%;
-  height: 80px;
+  width: 50%;
+  height: 95px;
   position: relative;
   top: 30px;
   left: 20px;
@@ -34,6 +37,14 @@ body {
   top: 20px;
   color: white;
   font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+}
+
+.Htext h4 {
+  font-size: 20px;
+}
+
+.Htext h5 {
+  font-size: 17px;
 }
 
 .Hlogo {
