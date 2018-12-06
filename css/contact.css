@@ -1,0 +1,9 @@
+iframe{
+	display: inline;
+	width: 500px;
+	height: 1000px;
+}
+
+.pagtext{
+	display: inline;
+}
