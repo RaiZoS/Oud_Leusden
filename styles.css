@@ -144,3 +144,11 @@ footer a:hover {
   background: #55ACEE;
   color: white;
 }
+
+canvas{
+  position: absolute;
+  top: 0;
+  width: 99%;
+  left: 0;
+  z-index: -1;
+}
