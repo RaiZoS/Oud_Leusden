@@ -12,14 +12,15 @@ body {
 
 .header {
   background: white;
-  width: 100%;
+  width: 1000px;
   height: 15%;
+  margin: auto;
 }
 
 .Htext {
   background: #558971;
   width: 40%;
-  height: 53%;
+  height: 80px;
   position: relative;
   top: 30px;
   left: 20px;
