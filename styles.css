@@ -1,18 +1,19 @@
 body {
   background: lightgrey;
+  margin-top: 20px;
 }
 
 .main {
   margin: auto;
   background: white;
-  width: 1000px;
-  height: 1000px;
+  width: 990px;
+  height: 500px;
   display: block;
 }
 
 .header {
   background: white;
-  width: 1000px;
+  width: 990px;
   height: 15%;
   margin: auto;
 }
@@ -76,4 +77,54 @@ li a {
 
 li a:hover {
   border-bottom: 3px solid rgba(85, 137, 113, .4);
+}
+
+footer {
+  margin: auto;
+  margin-top: -30px;
+  background: white;
+  width: 990px;
+  height: 100px;
+  display: block;
+  text-align: center;
+}
+
+hr {
+  border: 1px dashed #d6d6d6;
+}
+
+p {
+  font-family: Calibri;
+}
+
+footer a {
+  color: #558971;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #2b473a;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 2px;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
