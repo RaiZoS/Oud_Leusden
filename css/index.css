@@ -17,10 +17,19 @@
 }
 
 .MStext {
-	padding: 8px 35px 8px 14px;
+	padding: 0px 35px 0px 14px;
     border-radius: 4px;
     border: 1px solid rgb(214, 233, 198);
     margin-bottom: 18px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
     background-color: rgb(223, 240, 216);
+}
+
+.Mhr {
+	height: 450px;
+	border-left: 1px dashed #d6d6d6;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	margin-left: 525px;
 }
