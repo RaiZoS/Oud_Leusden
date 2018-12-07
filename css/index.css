@@ -1,0 +1,26 @@
+.Mtext p, .Mtext h1 {
+	color: #686363;
+}
+
+.Mtext {
+	text-align: justify;
+	width: 55%;
+	float: left;
+}
+
+.Mmid {
+	margin-left: 11px;
+    margin-right: 11px;
+    position: relative;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.MStext {
+	padding: 8px 35px 8px 14px;
+    border-radius: 4px;
+    border: 1px solid rgb(214, 233, 198);
+    margin-bottom: 18px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
+    background-color: rgb(223, 240, 216);
+}
