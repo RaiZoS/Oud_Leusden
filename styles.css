@@ -126,11 +126,11 @@ footer a:hover {
   padding: 6px;
   text-align: center;
   text-decoration: none;
-  margin: 0px 2px;
+  margin: -5px 3px;
 }
 
 .fab:hover {
-    opacity: 0.4;
+    opacity: 0.2;
     color: white;
     background: black;
 }
