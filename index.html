@@ -44,21 +44,35 @@
           <p class="T">Ook grotere gezelschappen zijn van harte welkom in een van onze zalen.</p>
         </div>
         <hr class="Mhr">
-      </div>
-      <div class="slider-holder">
-        <span id="slider-image-1"></span>
-        <span id="slider-image-2"></span>
-        <span id="slider-image-3"></span>
-        <div class="image-holder">
-            <img src="1.jpg" class="slider-image" />
-            <img src="2.jpg" class="slider-image" />
-            <img src="3.jpg" class="slider-image" />
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="media/free_wifi_small.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="media/RestaurantOudLeusden-logo.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="media/xmas.jpg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+          </div>
+
         </div>
-        <div class="button-holder">
-            <a href="#slider-image-1" class="slider-change"></a>
-            <a href="#slider-image-2" class="slider-change"></a>
-            <a href="#slider-image-3" class="slider-change"></a>
-        </div>
+
       </div>
       <canvas id="canvas"></canvas>
     </div>
