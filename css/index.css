@@ -1,4 +1,4 @@
-.Mtext p, .Mtext h1 {
+.T, .Mtext h1 {
 	color: #686363;
 }
 
@@ -23,7 +23,7 @@
     margin-bottom: 18px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
     background-color: rgb(223, 240, 216);
-    color: #468860;
+    color: rgb(70, 136, 71);
 }
 
 .Mhr {
