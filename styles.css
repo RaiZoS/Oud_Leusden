@@ -31,6 +31,7 @@ body {
   width: 990px;
   height: 15%;
   margin: auto;
+  border-bottom: 1px dashed #d6d6d6;
 }
 
 .Htext {
@@ -111,6 +112,7 @@ footer {
   height: 100px;
   display: block;
   text-align: center;
+  border-top: 1px dashed #d6d6d6;
 }
 
 hr {
