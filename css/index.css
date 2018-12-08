@@ -47,11 +47,21 @@
 
 .MB01, .MB02, .MB03 {
 	background-color: #f6f6f6;
-	padding: 10px 20px;
+	padding: 0px 20px;
 	width: 29%;
-	height: 75%;
+	height: 90%;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+.MBtext {
+	margin-top: -5px;
+}
+
+.MB01 img {
+	position: relative;
+	top: -120px;
+	left: 110px;
 }
