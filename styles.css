@@ -20,6 +20,7 @@ body {
 
 .main {
   margin: auto;
+  margin-top: -200px;
   background: white;
   width: 990px;
   height: 500px;
