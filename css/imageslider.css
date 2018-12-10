@@ -1,14 +1,22 @@
 * {box-sizing: border-box}
-.mySlides {display: none}
+.mySlides {
+  display: none;
+}
 img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 45%;
+  width: 45%;
   position: relative;
   margin: auto;
-  top: -350px;
+  top: -450px;
   left: 280px;
+}
+
+.mySlides img {
+  height: auto;
+  width: 404px;
+  margin: auto;
 }
 
 /* Next & previous buttons */

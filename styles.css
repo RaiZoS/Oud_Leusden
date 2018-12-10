@@ -20,7 +20,7 @@ body {
 
 .main {
   margin: auto;
-  margin-top: -200px;
+  margin-top: -8px;
   background: white;
   width: 990px;
   height: 500px;
@@ -90,6 +90,7 @@ ul {
 
 li {
   float: left;
+  z-index: 99;
 }
 
 li a {
@@ -99,6 +100,7 @@ li a {
   padding: 5px 26px;
   text-decoration: none;
   font-weight: bold;
+  z-index: 99;
 }
 
 li a:hover {
