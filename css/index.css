@@ -1,4 +1,4 @@
-.Mtext p, .Mtext h1 {
+.T, .Mtext h1 {
 	color: #686363;
 }
 
@@ -23,6 +23,7 @@
     margin-bottom: 18px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
     background-color: rgb(223, 240, 216);
+    color: rgb(70, 136, 71);
 }
 
 .Mhr {
@@ -32,4 +33,85 @@
 	border-top: none;
 	border-right: none;
 	margin-left: 525px;
+}
+
+.Mbottom{
+	margin-left: -36px;
+	margin-top: -450px;
+	background: white;
+	display: flex;
+ 	flex-wrap: nowrap;
+ 	height: 225px;
+ 	width: 990px;
+}
+
+.MB01, .MB02, .MB03 {
+	background-color: #f6f6f6;
+	padding: 0px 20px;
+	width: 29%;
+	height: 90%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.MBtext {
+	margin-top: -5px;
+}
+
+.MB01 img {
+	position: relative;
+	top: -120px;
+	left: 110px;
+}
+
+.MB02 img {
+	position: relative;
+	top: -120px;
+	left: 110px;
+}
+
+.MB01money {
+	background: #558971;
+	width: 30%;
+	padding: 10px;
+	position: relative;
+	top: -150px;
+	left: 175px;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+}
+
+.MB03 ul {
+	margin-top: 20px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.email {
+	width: 240px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	height: auto;
+ 	display: inline-block;
+	border: 1px solid #558971;
+	border-radius: 1px;
+	box-sizing: border-box;
+}
+
+.Esubmit {
+	width: 240px;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+	height: 30x;
+ 	display: inline-block;
+	box-sizing: border-box;
+	border: none;
+	color: white;
+	background: #558971;
+	cursor: pointer;
 }

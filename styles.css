@@ -20,6 +20,7 @@ body {
 
 .main {
   margin: auto;
+  margin-top: -8px;
   background: white;
   width: 990px;
   height: 500px;
@@ -31,12 +32,13 @@ body {
   width: 990px;
   height: 15%
   margin: auto;
+  border-bottom: 1px dashed #d6d6d6;
 }
 
 .Htext {
   background: #558971;
-  width: 40%;
-  height: 80px;
+  width: 45%;
+  height: 90px;
   position: relative;
   top: 30px;
   left: 20px;
@@ -49,6 +51,14 @@ body {
   top: 20px;
   color: white;
   font-family: "Calibri", verdana, candara, Andale Mono , Helvetica, sans-serif;
+}
+
+.Htext h4 {
+  font-size: 19px;
+}
+
+.Htext h5 {
+  font-size: 16px;
 }
 
 .Hlogo {
@@ -67,6 +77,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
+  margin-left: -0.25%;
   margin-top: -50px;
   padding: 0;
   overflow: hidden;
@@ -74,11 +85,12 @@ ul {
   float: left;
   border-bottom: 1px solid #444;
   z-index: 99;
-  width: 100%;
+  width: 100.5%;
 }
 
 li {
   float: left;
+  z-index: 99;
 }
 
 li a {
@@ -88,6 +100,7 @@ li a {
   padding: 5px 26px;
   text-decoration: none;
   font-weight: bold;
+  z-index: 99;
 }
 
 li a:hover {
@@ -102,6 +115,7 @@ footer {
   height: 100px;
   display: block;
   text-align: center;
+  border-top: 1px dashed #d6d6d6;
 }
 
 hr {
