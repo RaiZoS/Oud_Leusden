@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="media/fotos.css">
     <title>Restaurant_Oud_Leusden</title>
   </head>
   <body>
@@ -28,8 +29,32 @@
       </ul>
     </div>
     <div class="main">
-        
-        <canvas id="canvas"></canvas>
+      <div class="content" style="max-width:70%">
+        <img class="mySlides" src="media/foto01.jpg" style="width:100%;display:none">
+        <img class="mySlides" src="media/foto02.png" style="width:100%;display:none">
+        <img class="mySlides" src="media/foto03.jpg" style="width:100%">
+        <img class="mySlides" src="media/foto04.jpg" style="width:100%;display:none">
+        <img class="mySlides" src="media/foto05.jpg" style="width:100%;display:none">
+      
+        <div class="">
+          <div class="F">
+            <img class="F" src="media/foto01.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+          </div>
+          <div class="F">
+            <img class="F" src="media/foto02.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+          </div>
+          <div class="F">
+            <img class="F" src="media/foto03.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+          </div>
+          <div class="F">
+            <img class="F" src="media/foto04.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(4)">
+          </div>
+          <div class="F">
+            <img class="F" src="media/foto05.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(5)">
+          </div>
+        </div>
+      </div>
+      <canvas id="canvas"></canvas>
     </div>
     <footer>
       <p>
