@@ -33,11 +33,13 @@
           <p>Voornaam:</p>
           <input type="text" name="AchterNaam" value="Mickey">
           <p>*Achternaam:</p>
-          <input type="text" name="VoorNaam" value="Mouse">
+          <input type="text" name="VoorNaam" value="Mouse" required>
+          <p>Telefoonnummer</p>
+          <input type="tel" name="TelefoonNummer">
           <p>*Aantal personen:</p>
-          <input type="number" name="AantalPersonen" value="0">
+          <input type="number" name="AantalPersonen" value="0" required>
           <p>*Datum:</p>
-          <input type="date" name="ReserveerDatum">
+          <input type="date" name="ReserveerDatum" required>
           <p>Dagdeel:</p>
           <select>
             <option value="Ontbijt">Ontbijt</option>
@@ -46,7 +48,9 @@
             <option value="Diner">Diner</option>
           </select>
           <p>*Tijd:</p>
-          <input type="time" name="ReserveerTijd">
+          <input type="time" name="ReserveerTijd" required>
+          <p>*Mail:</p>
+          <input type="email" name="MailAdress" required>
           <p>*De opties met een sterretje zijn verplicht*</p>
           <br><br>
           <input type="submit" value="Submit">
