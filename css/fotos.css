@@ -1,0 +1,29 @@
+.F {
+    width: 20%;
+    display: inline-block;
+    opacity: 0.8;
+    margin-left: -5px;
+}
+
+.F:hover {
+    opacity: 1;
+}
+
+.F:active {
+    opacity: 1;
+}
+
+.content {
+    width: 35%;
+    margin-left: 580px;
+    margin-top: -450px;
+}
+
+.Mhr {
+	height: 450px;
+	border-left: 1px dashed #d6d6d6;
+	border-bottom: none;
+	border-top: none;
+	border-right: none;
+	margin-left: 525px;
+}
