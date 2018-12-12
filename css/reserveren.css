@@ -26,13 +26,15 @@ input[type=submit] {
 }
 
 .form {
+	width: 45%;
   border-radius: 5px;
   border: 1px dashed #d6d6d6;
   padding: 20px;
   margin: 15px;
   margin-top: 50px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
+  margin: auto;
 }
 
 .form p {
