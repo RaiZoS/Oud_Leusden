@@ -4,6 +4,11 @@ iframe{
 	height: 1000px;
 }
 
-.pagtext{
-	display: inline;
+.content {
+	text-align: justify;
+	width: 55%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 0px;
+	color: #686363;
 }
