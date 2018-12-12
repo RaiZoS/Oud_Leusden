@@ -3,27 +3,26 @@ input[type=text], select, input[type=tel], input[type=number], input[type=date],
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   color: #686363;
   text-align: center;
+  background: #f6f6f6;
 }
 
 input[type=submit] {
   width: 100%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  background: #f6f6f6;
+  color: #686363;
+  padding: 12px 20px;
+  margin: 0 0;
   border: none;
   border-radius: 4px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
   cursor: pointer;
   text-align: center;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
 }
 
 .form {
@@ -33,6 +32,7 @@ input[type=submit]:hover {
   margin: 15px;
   margin-top: 50px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .form p {
@@ -42,4 +42,14 @@ input[type=submit]:hover {
 
 .form h1 {
 	color: #686363;
+}
+
+input:hover, input:active, input:focus, select:hover, select:active, select:focus {
+	border: 2px solid #afafaf;
+	outline: none;
+	background: white;
+}
+
+input:focus {
+
 }
