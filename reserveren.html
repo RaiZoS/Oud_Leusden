@@ -29,6 +29,28 @@
       </ul>
     </div>
     <div class="main">
+      <form action="">
+          <p>Voornaam:</p>
+          <input type="text" name="AchterNaam" value="Mickey">
+          <p>*Achternaam:</p>
+          <input type="text" name="VoorNaam" value="Mouse">
+          <p>*Aantal personen:</p>
+          <input type="number" name="AantalPersonen" value="0">
+          <p>*Datum:</p>
+          <input type="date" name="ReserveerDatum">
+          <p>Dagdeel:</p>
+          <select>
+            <option value="Ontbijt">Ontbijt</option>
+            <option value="Tussendoortje">Tussendoortje</option>
+            <option value="Lunch">Lunch</option>
+            <option value="Diner">Diner</option>
+          </select>
+          <p>*Tijd:</p>
+          <input type="time" name="ReserveerTijd">
+          <p>*De opties met een sterretje zijn verplicht*</p>
+          <br><br>
+          <input type="submit" value="Submit">
+      </form>
       <canvas id="canvas"></canvas>
     </div>
     <footer>
