@@ -14,9 +14,10 @@
 }
 
 .content {
-    width: 35%;
-    margin-left: 580px;
-    margin-top: -450px;
+    position: absolute;
+    width: 22%;
+    margin-left: 620px;
+    margin-top: -430px;
 }
 
 .Mhr {
@@ -25,5 +26,17 @@
 	border-bottom: none;
 	border-top: none;
 	border-right: none;
-	margin-left: 525px;
+    margin-left: 525px;
+}
+
+.T, .Mtext h1 {
+	color: #686363;
+}
+
+.Mtext {
+	text-align: justify;
+	width: 55%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 0px;
 }
