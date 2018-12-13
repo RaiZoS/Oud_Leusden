@@ -1,7 +1,14 @@
 iframe{
 	display: inline;
-	width: 500px;
-	height: 1000px;
+	width: 425px;
+	height: 350px;
+	border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
 }
 
 .content {
@@ -11,4 +18,28 @@ iframe{
     margin-left: 40px;
     margin-top: 0px;
 	color: #686363;
+}
+
+.pdf{
+	padding: 5px 10px;
+	line-height: 16px;
+	color: #fff;
+	padding-left: 30px;
+	border: 0;
+	border-radius: 3px;
+	transition: all .25s ease-in-out;
+	background-color: #C09853;
+	background-repeat: no-repeat;
+	background-position: 6px 4px;
+	background-image: url(../media/pdf/page_white_acrobat.png);
+	font-size: 13px;
+	text-align: center;
+}
+
+.pdf:hover{
+	background-color: #4e856b;
+}
+
+.flex-container{
+	display: flex;
 }
