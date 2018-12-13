@@ -26,7 +26,7 @@ input[type=submit] {
 }
 
 .form {
-	width: 45%;
+  width: 45%;
   border-radius: 5px;
   border: 1px dashed #d6d6d6;
   padding: 20px;
@@ -38,16 +38,51 @@ input[type=submit] {
 }
 
 .form p {
-	font-size: 20px;
-	color: #686363;
+  font-size: 20px;
+  color: #686363;
 }
 
 .form h1 {
-	color: #686363;
+  color: #686363;
 }
 
 input:hover, input:active, input:focus, select:hover, select:active, select:focus {
-	border: 2px solid #afafaf;
-	outline: none;
-	background: white;
+  border: 2px solid #afafaf;
+  outline: none;
+  background: white;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
 }

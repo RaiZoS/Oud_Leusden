@@ -178,3 +178,11 @@ function currentDiv(n) {
     x[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " opacity-off";
   }
+
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
