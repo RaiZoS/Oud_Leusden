@@ -1,4 +1,4 @@
-input[type=text], select, input[type=tel], input[type=number], input[type=date], input[type=time], input[type=email] {
+input[type=text], select, input[type=tel], input[type=number], input[type=date], input[type=time], input[type=email], textarea {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -9,6 +9,7 @@ input[type=text], select, input[type=tel], input[type=number], input[type=date],
   color: #686363;
   text-align: center;
   background: #f6f6f6;
+  margin-top: -100px;
 }
 
 input[type=submit] {
@@ -35,18 +36,20 @@ input[type=submit] {
   text-align: center;
   padding-bottom: 40px;
   margin: auto;
+  float: left;
 }
 
 .form p {
   font-size: 20px;
   color: #686363;
+  margin-top: 10px;
 }
 
 .form h1 {
   color: #686363;
 }
 
-input:hover, input:active, input:focus, select:hover, select:active, select:focus {
+textarea:hover, textarea:focus, input:hover, input:active, input:focus, select:hover, select:active, select:focus {
   border: 2px solid #afafaf;
   outline: none;
   background: white;
@@ -60,11 +63,19 @@ input:hover, input:active, input:focus, select:hover, select:active, select:focu
   -webkit-appearance: none;
   width: 100%;
   height: 25px;
-  background: #d3d3d3;
   outline: none;
-  opacity: 0.7;
   -webkit-transition: .2s;
   transition: opacity .2s;
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  background: #f6f6f6;
 }
 
 .slider:hover {
@@ -76,13 +87,20 @@ input:hover, input:active, input:focus, select:hover, select:active, select:focu
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #558971;
   cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: #558971;
   cursor: pointer;
+}
+
+textarea {
+  font-size: 10px;
+  text-align: left;
+  height: 50px;
+  margin-top: 0px;
 }

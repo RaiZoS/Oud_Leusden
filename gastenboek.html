@@ -28,17 +28,21 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-    <div class="main">
+    <div class="main" style="height: 1000px;">
       <form class="form">
         <p>Voornaam:</p>
-        <input type="text" name="Voornaam" value="">
+        <input type="text" name="Voornaam">
         <p>*Achternaam:</p>
         <input type="text" name="AchterNaam">
         <p>*Rating:</p>
-        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-        <p>Value: <span id="demo"></span></p>
+        <div class="slidecontainer">
+          <input type="range" value="50" class="slider" id="myRange" onfocus="myFunction()">
+          <p>Cijfer: <span id="demo"></span>%</p>
+        </div>
+        <hr>
+        <p>Comment:</p>
+        <textarea rows="4" cols="50"></textarea>
         <p>*De velden met een sterretje zijn verplicht*</p>
-        <br><br>
         <input type="submit" value="Submit">
       </form>
       <canvas id="canvas"></canvas>
@@ -52,7 +56,15 @@
       <a href="#" class="fab fa-facebook-f"></a>
       <a href="#" class="fab fa-twitter"></a>
     </footer>
-    <script type="text/javascript" src="script.js">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript">
+      var slider = document.getElementById("myRange");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function() {
+        output.innerHTML = this.value;
+      }
     </script>
   </body>
 </html>
