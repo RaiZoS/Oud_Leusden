@@ -63,5 +63,3 @@ function currentDiv(n) {
     x[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " opacity-off";
   }
-
-  
