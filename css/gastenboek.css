@@ -108,5 +108,6 @@ textarea {
 
 #comments {
   position: relative;
-  top: 100px;
+  top: 50px;
+  left: 200px;
 }
