@@ -1,6 +1,15 @@
+.pagina{
+	text-shadow: 2px 2px;
+}
+
 body {
-  background: lightgrey;
+  background: #f6f6f6;
   margin-top: 20px;
+}
+
+html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
 }
 
 .main {
