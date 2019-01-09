@@ -32,11 +32,12 @@ input[type=submit] {
   border: 1px dashed #d6d6d6;
   padding: 20px;
   margin: 15px;
-  margin-top: 50px;
   text-align: center;
   padding-bottom: 40px;
   margin: auto;
   float: left;
+  position: relative;
+  top: 10px;
 }
 
 .form p {
@@ -103,4 +104,9 @@ textarea {
   text-align: left;
   height: 50px;
   margin-top: 0px;
+}
+
+#comments {
+  position: relative;
+  top: 100px;
 }
