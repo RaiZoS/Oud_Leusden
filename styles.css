@@ -106,7 +106,7 @@ footer {
   margin-top: -30px;
   background: white;
   width: 990px;
-  height: 100px;
+  height: 70px;
   display: block;
   text-align: center;
   border-top: 1px dashed #d6d6d6;
@@ -148,14 +148,14 @@ footer a:hover {
 .fa-facebook-f {
   background: #3B5998;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
   width: 5%;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
-  font-size: 2em;
+  font-size: 1em;
   width: 5%;
 }
 
