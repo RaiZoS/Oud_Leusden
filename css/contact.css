@@ -39,6 +39,25 @@ iframe{
 .pdf:hover{
 	background-color: #4e856b;
 }
+.mailen{
+	padding: 5px 10px;
+	line-height: 16px;
+	color: #fff;
+	padding-left: 30px;
+	border: 0;
+	border-radius: 3px;
+	transition: all .25s ease-in-out;
+	background-color: #C09853;
+	background-repeat: no-repeat;
+	background-position: 6px 4px;
+	background-image: url(../media/mail2.png);
+	font-size: 13px;
+	text-align: center;
+}
+
+.mailen:hover{
+	background-color: #4e856b;
+}
 
 .flex-container{
 	display: flex;
