@@ -10,52 +10,54 @@
     <title>Restaurant_Oud_Leusden/gastenboek</title>
   </head>
   <body>
-    <div class="background">
-    </div>
-    <div class="header">
-      <div class="Htext">
-        <h4>Restaurant Oud Leusden, gewoon gastvrij genieten</h4>
-        <h5><i>Uw diner, feest of vergadering tot in de puntjes verzorgd!<i></h5>
-      </div>
-      <img src="media/RestaurantOudLeusden-logo.png" class="Hlogo">
-      <img src="media/free_wifi_small.png" class="Hwifi">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fotos.html">Foto's</a></li>
-        <li><a style="border-bottom: 3px solid rgba(85, 137, 113, 1); href="gastenboek.html">Gastenboek</a></li>
-        <li><a href="vacature.html">Vacature</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="reserveren.html">Reserveren</a></li>
-      </ul>
-    </div>
-    <div class="main" style="height: 619px; margin-top: -20px;">
-      <form class="form">
-        <p>Voornaam:</p>
-        <input type="text" name="Voornaam">
-        <p>*Achternaam:</p>
-        <input type="text" name="AchterNaam" required>
-        <p>*Rating:</p>
-        <div class="slidecontainer">
-          <input type="range" value="50" class="slider" id="myRange" onfocus="myFunction()" required>
-          <p>Cijfer: <span id="demo"></span>%</p>
-        </div>
-        <hr>
-        <p>Comment:</p>
-        <textarea rows="4" cols="50"></textarea>
-        <p>*De velden met een sterretje zijn verplicht*</p>
-        <input type="submit" value="Verstuur">
-      </form>
-      <div id="comments"><p>Comment Box:</p></div>
-    </div>
-    <footer>
-      <p>
-        <strong>Restaurant Oud Leusden</strong>
-        • Vlooswijkseweg 1 • 3832 RG Leusden • 033 - 4614098 •
-        <a href="info@restaurantoudleusden.nl">info@restaurantoudleusden.nl</a>
-      </p>
-      <a href="https://nl-nl.facebook.com/RestaurantOudLeusden/" target="_blank" class="fab fa-facebook-f"></a>
-      <a href="https://twitter.com/oudleusden" target="_blank" class="fab fa-twitter"></a>
-    </footer>
+	<div class="schaduw">
+		<div class="background">
+		</div>
+		<div class="header">
+		  <div class="Htext">
+			<h4>Restaurant Oud Leusden, gewoon gastvrij genieten</h4>
+			<h5><i>Uw diner, feest of vergadering tot in de puntjes verzorgd!<i></h5>
+		  </div>
+		  <img src="media/RestaurantOudLeusden-logo.png" class="Hlogo">
+		  <img src="media/free_wifi_small.png" class="Hwifi">
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="fotos.html">Foto's</a></li>
+			<li><a style="border-bottom: 3px solid rgba(85, 137, 113, 1); href="gastenboek.html">Gastenboek</a></li>
+			<li><a href="vacature.html">Vacature</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="reserveren.html">Reserveren</a></li>
+		  </ul>
+		</div>
+		<div class="main" style="height: 619px; margin-top: -20px;">
+		  <form class="form">
+			<p>Voornaam:</p>
+			<input type="text" name="Voornaam">
+			<p>*Achternaam:</p>
+			<input type="text" name="AchterNaam" required>
+			<p>*Rating:</p>
+			<div class="slidecontainer">
+			  <input type="range" value="50" class="slider" id="myRange" onfocus="myFunction()" required>
+			  <p>Cijfer: <span id="demo"></span>%</p>
+			</div>
+			<hr>
+			<p>Comment:</p>
+			<textarea rows="4" cols="50"></textarea>
+			<p>*De velden met een sterretje zijn verplicht*</p>
+			<input type="submit" value="Verstuur">
+		  </form>
+		  <div id="comments"><p>Comment Box:</p></div>
+		</div>
+		<footer>
+		  <p>
+			<strong>Restaurant Oud Leusden</strong>
+			• Vlooswijkseweg 1 • 3832 RG Leusden • 033 - 4614098 •
+			<a href="info@restaurantoudleusden.nl">info@restaurantoudleusden.nl</a>
+		  </p>
+		  <a href="https://nl-nl.facebook.com/RestaurantOudLeusden/" target="_blank" class="fab fa-facebook-f"></a>
+		  <a href="https://twitter.com/oudleusden" target="_blank" class="fab fa-twitter"></a>
+		</footer>
+	</div>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript">
       var slider = document.getElementById("myRange");

@@ -10,68 +10,70 @@
     <title>Restaurant_Oud_Leusden/reserveren</title>
   </head>
   <body>
-    <div class="background">
-    </div>
-    <div class="header">
-      <div class="Htext">
-        <h4>Restaurant Oud Leusden, gewoon gastvrij genieten</h4>
-        <h5><i>Uw diner, feest of vergadering tot in de puntjes verzorgd!<i></h5>
-      </div>
-      <img src="media/RestaurantOudLeusden-logo.png" class="Hlogo">
-      <img src="media/free_wifi_small.png" class="Hwifi">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="fotos.html">Foto's</a></li>
-        <li><a href="gastenboek.html">Gastenboek</a></li>
-        <li><a href="vacature.html">Vacature</a></li>
-        <li><a href="contact.html">Contact</a></li>
-		<li><a style="border-bottom: 3px solid rgba(85, 137, 113, 1);" href="reserveren.html">Reserveren</a></li>
-      </ul>
-    </div>
-    <div class="main" style="height: 1290px; margin-top: -50px;">
-      <div class="form">
-        <h1>Reserveren</h1>
-        <p>Wil je bij ons mooie restaurant komen eten? <br>
-          Vul het formulier in of bel ons op: 033 - 4614098 <br>
-        </p>
-        <form action="">
-            <p>Voornaam:</p>
-            <input type="text" name="VoorNaam" value="">
-            <p>*Achternaam:</p>
-            <input type="text" name="AchterNaam" value="" required>
-            <p>Telefoonnummer</p>
-            <input type="tel" name="TelefoonNummer">
-            <p>*Aantal personen:</p>
-            <input type="number" name="AantalPersonen" value="0" required>
-            <p>*Datum:</p>
-            <input type="date" name="ReserveerDatum" required>
-            <p>Dagdeel:</p>
-            <select>
-              <option value="Ontbijt">Ontbijt</option>
-              <option value="Tussendoortje">Tussendoortje</option>
-              <option value="Lunch">Lunch</option>
-              <option value="Diner">Diner</option>
-            </select>
-            <p>*Tijd:</p>
-            <input type="time" name="ReserveerTijd" required>
-            <p>*Mail:</p>
-            <input type="email" name="MailAdress" required>
-            <p>*De velden met een sterretje zijn verplicht*</p>
-            <br><br>
-            <input type="submit" value="Verstuur">
-        </form>
-      </div>
-      <canvas id="canvas" style="height: 1500px;"></canvas>
-    </div>
-    <footer>
-      <p>
-        <strong>Restaurant Oud Leusden</strong>
-        • Vlooswijkseweg 1 • 3832 RG Leusden • 033 - 4614098 •
-        <a href="info@restaurantoudleusden.nl">info@restaurantoudleusden.nl</a>
-      </p>
-      <a href="https://nl-nl.facebook.com/RestaurantOudLeusden/" target="_blank" class="fab fa-facebook-f"></a>
-      <a href="https://twitter.com/oudleusden" target="_blank" class="fab fa-twitter"></a>
-    </footer>
+	<div class="schaduw">
+		<div class="background">
+		</div>
+		<div class="header">
+		  <div class="Htext">
+			<h4>Restaurant Oud Leusden, gewoon gastvrij genieten</h4>
+			<h5><i>Uw diner, feest of vergadering tot in de puntjes verzorgd!<i></h5>
+		  </div>
+		  <img src="media/RestaurantOudLeusden-logo.png" class="Hlogo">
+		  <img src="media/free_wifi_small.png" class="Hwifi">
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="fotos.html">Foto's</a></li>
+			<li><a href="gastenboek.html">Gastenboek</a></li>
+			<li><a href="vacature.html">Vacature</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a style="border-bottom: 3px solid rgba(85, 137, 113, 1);" href="reserveren.html">Reserveren</a></li>
+		  </ul>
+		</div>
+		<div class="main" style="height: 1290px; margin-top: -50px;">
+		  <div class="form">
+			<h1>Reserveren</h1>
+			<p>Wil je bij ons mooie restaurant komen eten? <br>
+			  Vul het formulier in of bel ons op: 033 - 4614098 <br>
+			</p>
+			<form action="">
+				<p>Voornaam:</p>
+				<input type="text" name="VoorNaam" value="">
+				<p>*Achternaam:</p>
+				<input type="text" name="AchterNaam" value="" required>
+				<p>Telefoonnummer</p>
+				<input type="tel" name="TelefoonNummer">
+				<p>*Aantal personen:</p>
+				<input type="number" name="AantalPersonen" value="0" required>
+				<p>*Datum:</p>
+				<input type="date" name="ReserveerDatum" required>
+				<p>Dagdeel:</p>
+				<select>
+				  <option value="Ontbijt">Ontbijt</option>
+				  <option value="Tussendoortje">Tussendoortje</option>
+				  <option value="Lunch">Lunch</option>
+				  <option value="Diner">Diner</option>
+				</select>
+				<p>*Tijd:</p>
+				<input type="time" name="ReserveerTijd" required>
+				<p>*Mail:</p>
+				<input type="email" name="MailAdress" required>
+				<p>*De velden met een sterretje zijn verplicht*</p>
+				<br><br>
+				<input type="submit" value="Verstuur">
+			</form>
+		  </div>
+		  <canvas id="canvas" style="height: 1500px;"></canvas>
+		</div>
+		<footer>
+		  <p>
+			<strong>Restaurant Oud Leusden</strong>
+			• Vlooswijkseweg 1 • 3832 RG Leusden • 033 - 4614098 •
+			<a href="info@restaurantoudleusden.nl">info@restaurantoudleusden.nl</a>
+		  </p>
+		  <a href="https://nl-nl.facebook.com/RestaurantOudLeusden/" target="_blank" class="fab fa-facebook-f"></a>
+		  <a href="https://twitter.com/oudleusden" target="_blank" class="fab fa-twitter"></a>
+		</footer>
+	</div>
     <script type="text/javascript" src="script.js">
     </script>
   </body>
