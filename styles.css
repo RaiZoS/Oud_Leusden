@@ -82,6 +82,15 @@ ul {
   width: 100.5%;
 }
 
+ul li:nth-child(6) a {
+	color: #d8ad3e;
+}
+
+ul li:nth-child(6) {
+	padding-right: 10px;
+	float: right;
+}
+
 li {
   float: left;
   z-index: 99;
@@ -166,4 +175,4 @@ canvas{
   height: 850px;
   left: 0;
   z-index: -1;
-}  
+}
