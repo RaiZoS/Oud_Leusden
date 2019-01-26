@@ -111,3 +111,16 @@ textarea {
   top: 50px;
   left: 200px;
 }
+#comments p {
+  position: relative;
+  top: 10%;
+  font-size: 19px;
+  font-family: Calibri;
+  color: #686363;
+}
+.Mtext {
+	text-align: justify;
+	width: 55%;
+    margin-left: 40px;
+    margin-top: 0px;
+	color: #686363;
