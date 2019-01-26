@@ -8,6 +8,11 @@ html {
     overflow-y: scroll;
 }
 
+.schaduw{
+	margin: auto;
+	max-width: 1000px;
+}
+
 .main {
 	margin: auto;
 	margin-top: -8px;

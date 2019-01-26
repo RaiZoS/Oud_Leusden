@@ -42,6 +42,10 @@ input[type=submit] {
 	color: #686363;
 }
 
+.form p:nth-child(2) {
+	line-height: 1.3
+}
+
 .form h1 {
 	color: #686363;
 }
