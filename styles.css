@@ -183,5 +183,5 @@ canvas{
 	-moz-box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 25px -5px rgba(0,0,0,0.75);
 	background-color: white;
-	width: 1000px;
+	width: 999px;
 }
