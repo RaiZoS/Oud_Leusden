@@ -28,3 +28,9 @@ h5,h6{
 	font-size: 13px;
 	text-align: center;
 }
+@media only screen and (max-width: 800px) {
+	.content{
+		width: 75%;
+		height: 1300px;
+	}
+}

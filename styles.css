@@ -266,10 +266,25 @@ canvas{
 		top: -180px;
 		width: 120px;
 	}
+	.main{
+		width: 100%;
+		margin-right: 10px;
+	}
+	li a{
+		border-bottom: none !important;
+	}
 }
 @media only screen and (max-width: 666px) {
 	.header li a{
 		padding: 10px;
 		width: 100px;
+	}
+	.Htext{
+		width: 100%;
+		position: relative;
+		top: 30px;
+		left: 0px;
+		margin-top: 50px;
+		padding-bottom: 50px;
 	}
 }

@@ -55,3 +55,11 @@ input:hover, input:active, input:focus, select:hover, select:active, select:focu
 	outline: none;
 	background: white;
 }
+@media only screen and (max-width: 800px) {
+	.main{
+		height: 1100px;
+	}
+	footer{
+		margin-top: 100px;
+	}
+}
