@@ -45,3 +45,19 @@
     width: 100%;
     margin-left: 90px;
 }
+
+@media only screen and (max-width: 800px) {
+	.content{
+		position: absolute;
+		right: 40%;
+		top: 1250px;
+		width: 50%;
+	}
+	.main{
+		height: 1100px !important;
+	}
+	.Mtext{
+		width: 100%;
+		padding-right: 20px;
+	}
+}

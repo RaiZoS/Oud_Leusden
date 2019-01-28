@@ -62,3 +62,15 @@ iframe{
 .flex-container{
 	display: flex;
 }
+
+@media only screen and (max-width: 800px) {
+	.main{
+		height: 1050px !important;
+	}
+	iframe{
+		display: inline-block;
+	}
+	.flex-container{
+		display: inline-block;
+	}
+}
